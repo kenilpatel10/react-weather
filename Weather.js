@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { Button, Row } from 'react-bootstrap';
 import { BsSearch } from "react-icons/bs";
-const App = () => {
+const Weather = () => {
         const [input, setInput] = useState('')
         const [temp , setTemp] = useState({});
 
@@ -85,4 +85,4 @@ const App = () => {
     )
 }
 
-export default App
+export default Weather
