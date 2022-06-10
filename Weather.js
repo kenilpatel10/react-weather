@@ -52,30 +52,17 @@ const Weather = () => {
 
   </div>
   </Row>
-{/* <div  className=" col-sm-6  "> */}
- 
-  {/* </div> */}
+
   <div className='date'>{dateBuilder(new Date())}</div>
 
 
   
 <div className='date'> {temp.name} </div>
-      {/* <div className='location'>{(temp || {}).name|| ""}</div> */}
-     
-  
-
-  {/* <div className='temp-box'> */}
+   
       <div className='temp'>
       {Math.round((temp.main || {}).temp|| "")}&deg;C
-     {/* <br/> {(temp.weather[0] || {}).main|| ""} */}
-
+    
       </div>
-  {/* </div> */}
-  {/* <p>temp {temp.main.temp }</p> */}
-  {/* <p>name {(temp || {}).name|| ""}</p> */}
-  {/* <p>WEATHER {(temp.weather[0] || []).main|| ""}</p> */}
-  {/* <p>WEATHER {(temp.wind|| {}).speed|| ""}</p> */}
-
 
   </div> 
 
